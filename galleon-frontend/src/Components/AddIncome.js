@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import IncomeDropdown from "./IncomeDropdown"
 
-const API_URL = "http://localhost:5005";
+const API_URL = "https://galleon-app.vercel.app/";
 
 function AddIncome(props) {
   const [income, setIncome] = useState(0);

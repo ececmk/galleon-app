@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaEdit, FaCheck, FaTrash } from 'react-icons/fa';
 import axios from "axios";
 
-const API_URL = "http://localhost:5005";
+const API_URL = "https://galleon-app.vercel.app/";
 
 function ExpenseCard({
   expenseValue,
