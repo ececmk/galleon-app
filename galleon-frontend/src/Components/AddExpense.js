@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import ExpenseDropdown from "./ExpenseDropdown";
 
-const API_URL = "https://galleon-app.vercel.app/";
+const API_URL = "https://ill-bat-beret.cyclic.app/";
 
 function AddExpense(props) {
   const [expense, setExpense] = useState(0);

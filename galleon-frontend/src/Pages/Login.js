@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/auth.context";
 
-const API_URL = "https://galleon-app.vercel.app/" 
+const API_URL = "https://ill-bat-beret.cyclic.app/" 
 
 function Login(props) {
   const [email, setEmail] = useState("");

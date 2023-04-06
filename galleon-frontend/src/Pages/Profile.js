@@ -6,7 +6,7 @@ import ExpenseChart from "../charts/ExpenseChart";
 import Wallet from "../Components/Wallet"
 import ExpenseListPage from "../Components/ExpenseList";
 import IncomeListPage from "../Components/IncomeList";
-const API_URL = "https://galleon-app.vercel.app/";
+const API_URL = "https://ill-bat-beret.cyclic.app/";
 
 function Profile(props) {
   const [expense, setExpense] = useState([]);

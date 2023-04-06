@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "https://galleon-app.vercel.app/"
+const API_URL = "https://ill-bat-beret.cyclic.app/"
 
 function Signup(props) {
   const [email, setEmail] = useState("");

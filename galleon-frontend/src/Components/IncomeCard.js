@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaEdit, FaCheck, FaTrash } from 'react-icons/fa';
 import axios from "axios";
 
-const API_URL = "https://galleon-app.vercel.app/";
+const API_URL = "https://ill-bat-beret.cyclic.app/";
 
 function IncomeCard({
   incomeValue,
